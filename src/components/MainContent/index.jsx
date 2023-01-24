@@ -1,4 +1,10 @@
+import tenisAmpliado from "../../assets/tenis-1-ampliado.png"
+import tenis1 from "../../assets/tenis-1-galeria.png"
+import tenis2 from "../../assets/tenis-2-galeria.png"
+import tenis3 from "../../assets/tenis-3-galeria.png"
+
 import styles from "./styles.module.css"
+
 
 function MainContent(){
   return (
@@ -12,7 +18,12 @@ function MainContent(){
         </div>
       </div>
       <div className={styles.productPhotos}>
-
+        <img src={tenisAmpliado}  className={styles.mainImg}/>
+        <div className={styles.imgGrid}>
+          <img src={tenis1} className={styles.bottomImg}/>
+          <img src={tenis2} className={styles.bottomImg}/>
+          <img src={tenis3} className={styles.bottomImg}/>
+        </div>
       </div>
     </div>
   )
