@@ -1,0 +1,53 @@
+.mainGrid {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.productInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 60%;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  color: #9C9696;
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+.buyButton {
+  height: 70px;
+  width: 220px;
+  border: none;
+  background-color: #FF0000;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.buyButton:hover{
+  background-color: #8f0101;
+  cursor: pointer;
+}
+
+.productPhotos {
+  background-color: #C4C4C4;
+}
