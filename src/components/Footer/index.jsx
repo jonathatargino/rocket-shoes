@@ -1,4 +1,5 @@
 import imgVideo from "../../assets/img-video.png"
+import arrowSvg from "../../assets/icon-arrow.svg"
 
 import styles from "./styles.module.css"
 
@@ -12,7 +13,10 @@ function Footer(){
         <span>Youtube</span>
         <span>Twitter</span>
       </div>
-      <button className={styles.exploreButton} type="button">Explore mais</button>
+      <button className={styles.exploreButton} type="button">
+        Explore mais 
+        <img src={arrowSvg}/>
+        </button>
     </div>
   )
 }

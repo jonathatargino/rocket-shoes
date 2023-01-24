@@ -26,4 +26,8 @@
   text-transform: uppercase;
   font-weight: 700;
   border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
 }
