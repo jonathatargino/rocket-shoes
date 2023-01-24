@@ -14,7 +14,7 @@ function NavBar(){
       <span>Criança</span>
       <span>Customizar</span>
       <SearchInput/>
-      <img src={bagSvg}/>
+      <img src={bagSvg} className={styles.bag}/>
     </div>
   )
 }

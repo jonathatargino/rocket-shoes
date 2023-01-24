@@ -16,3 +16,17 @@
   font-size: 1.1rem;
   font-weight: 700;
 }
+
+.navbar span:hover {
+  color: #FF0000;
+  cursor: pointer;
+}
+
+.bag {
+  padding: 8px;
+}
+
+.bag:hover {
+  background-color: rgba(0,0,0,0.1);
+  cursor: pointer;
+}

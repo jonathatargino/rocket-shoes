@@ -16,7 +16,11 @@
   align-items: center;
   text-transform: uppercase;
   font-weight: 700;
+}
 
+.socialMedia span:hover {
+  color: #FF0000;
+  cursor: pointer;
 }
 
 .exploreButton {
@@ -30,4 +34,9 @@
   justify-content: center;
   align-items: center;
   gap: 8px;
+}
+
+.exploreButton:hover {
+  background-color: #FF0000;
+  cursor: pointer;
 }
