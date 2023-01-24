@@ -1,0 +1,29 @@
+.footer {
+  background-color: #ECECED;
+  display: grid;
+  grid-template-columns: 150px auto 300px;
+}
+
+.img {
+  max-height: 100%;
+  max-width: 150px;
+}
+
+.socialMedia {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 700;
+
+}
+
+.exploreButton {
+  background: black;
+  color: white;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+}
