@@ -1,0 +1,12 @@
+.search {
+  background: white;
+  color: gray;
+  border: none;
+  width: 150px;
+  height: 30px;
+  background-image: url(../../assets/icon-search.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 32px;
+  padding-right: 16px;
+}
