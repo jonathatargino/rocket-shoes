@@ -1,0 +1,23 @@
+.productPhotos {
+  background-color: #C4C4C4;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.mainImg {
+  width: 350px;
+}
+
+.imgGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+}
+
+.bottomImg {
+  width: 200px;
+  height: 130px;
+}
