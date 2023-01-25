@@ -1,0 +1,10 @@
+.bottomImg {
+  width: 200px;
+  height: 130px;
+}
+
+.current {
+  width: 200px;
+  height: 130px;
+  border-bottom: 3px solid #FF0000;
+}

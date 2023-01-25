@@ -8,6 +8,7 @@ import tenisAmpliado2 from "../../assets/tenis-2-ampliado.png"
 import tenisAmpliado3 from "../../assets/tenis-3-ampliado.png"
 
 import styles from "./styles.module.css"
+import BottomProductImage from "../BottomProductImage"
 
 function ProductPhotos(){
   const [selectedImage, setSelectedImage] = useState(0)
@@ -39,9 +40,9 @@ function ProductPhotos(){
     <div className={styles.productPhotos}>
       <img src={imgArray[selectedImage]}  className={styles.mainImg}/>
       <div className={styles.imgGrid}>
-        <img src={tenis1} className={styles.bottomImg}/>
-        <img src={tenis2} className={styles.bottomImg}/>
-        <img src={tenis3} className={styles.bottomImg}/>
+        <BottomProductImage src={tenis1} current={selectedImage === 0}/>
+        <BottomProductImage src={tenis2} current={selectedImage === 1}/>
+        <BottomProductImage src={tenis3} current={selectedImage === 2}/>
       </div>
     </div>
   )
