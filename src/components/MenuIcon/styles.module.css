@@ -1,0 +1,15 @@
+.menuIcon {
+  width: 40px;
+  display: none;
+}
+
+.menuIcon:hover {
+  background-color: rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+@media (max-width: 768px){
+  .menuIcon {
+    display: block
+  }
+}
