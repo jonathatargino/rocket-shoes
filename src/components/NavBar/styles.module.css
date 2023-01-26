@@ -9,8 +9,6 @@
   width: 100%;
   height: 60px;
   background: transparent;
-  overflow-x: hidden;
-  overflow-y: hidden;
 }
 
 .navbar span:hover {
