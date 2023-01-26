@@ -4,7 +4,7 @@
   justify-content: space-around;
   align-items: center;
   text-transform: uppercase;
-  font-size: 1.1rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 
@@ -16,6 +16,12 @@
   text-transform: uppercase;
   font-size: 1.1rem;
   font-weight: 700;
+}
+
+@media (max-width: 1440px){
+  .options {
+    font-size: 1.5rem;
+  }
 }
 
 @media (max-width: 768px){
