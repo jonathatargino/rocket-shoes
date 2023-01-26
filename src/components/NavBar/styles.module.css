@@ -5,10 +5,10 @@
   position: absolute;
   left: 0;
   right: 0;
-  margin: 0 auto;
   width: 100%;
   height: 60px;
   background: transparent;
+  overflow-x: hidden;
 }
 
 .navbar span:hover {
@@ -27,6 +27,7 @@
 
 @media (max-width: 768px) {
   .navbar {
-    background-color: #C4C4C4
+    background-color: #C4C4C4;
+    width: 100%;
   }
 }
